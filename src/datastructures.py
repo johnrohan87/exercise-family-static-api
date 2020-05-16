@@ -10,7 +10,12 @@ from random import randint
 
 class FamilyStructure:
     def __init__(self, last_name):
+        #self.id = self._generateId()
         self.last_name = last_name
+        #self.first_name = "Test"
+        #self.age = 0
+        #self.lucky_numbers = []
+        
 
         # example list of members
         self._members = []
